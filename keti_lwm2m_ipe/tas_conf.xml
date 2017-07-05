@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<conf>
+    <tas>
+        <parenthostname>192.168.0.63</parenthostname>
+        <parentport>3105</parentport>
+    </tas>
+    <lwm2m>
+    	<server>
+    		<http>
+    			<host>localhost</host>
+    			<port>8080</port>
+    		</http>
+    		<coap>
+    			<host>localhost</host>
+    			<port>5083</port>
+    		</coap>
+    		<coaps>
+    			<host>localhost</host>
+    			<port>5084</port>
+    		</coaps>
+    	</server>
+    </lwm2m>
+    <upload>
+        <ctname>cnt-temp</ctname>
+        <lwm2mpath>/KETILwVirtualDevice/3303/0/5700</lwm2mpath>
+    </upload>
+    <upload>
+        <ctname>cnt-humi</ctname>
+        <lwm2mpath>/KETILwVirtualDevice/3304/0/5700</lwm2mpath>
+    </upload>
+    <download>
+    	<ctname>cnt-led</ctname>
+    	<lwm2mpath>/KETILwVirtualDevice/3311/0/5850</lwm2mpath>
+    </download>
+</conf>
