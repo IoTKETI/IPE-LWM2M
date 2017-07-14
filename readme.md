@@ -6,7 +6,10 @@ see more in [OCEAN webpage](iot.ocean.org)
 
 > *oneM2M* is an IoT server platform standard that supports devices as well as cloud server, while *LWM2M(Light Weight Machine to Machine* is an IoT service platform that supports devices. *IPE(Interworking Proxy Entity)* defined in *oneM2M* enables *LWM2M* device to work with *oneM2M* server side platform.
 
-![LWM2M IPE image1](http://iotocean.weebly.com/uploads/9/9/5/2/99521100/published/onem2m-lwm2m-interworking.jpg?1499653379)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/29790334/28198524-c4d9955e-6899-11e7-84bf-595a41fd2f32.png" width="500">
+</div>
+<br/>
 
 ----
 ## Environment
